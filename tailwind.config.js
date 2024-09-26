@@ -13,6 +13,12 @@ export default {
                 'light-lavender': 'hsl(241, 100%, 89%)',
                 'dark-grey-blue': 'hsl(224, 30%, 27%)',
             },
+            boxShadow: {
+                '3xl': '0 30px 60px 0 rgba(61, 108, 236, 0.15)',
+            },
+            borderRadius: {
+                '4xl': '32px',
+            },
         },
         fontFamily: {
             sans: ['Hanken Grotesk', 'sans-serif'],

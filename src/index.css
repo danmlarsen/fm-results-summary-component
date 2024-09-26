@@ -8,3 +8,28 @@
         src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
     }
 }
+
+@layer utilities {
+    @property --myColor1 {
+        syntax: '<color>';
+        initial-value: theme(colors.dark-grey-blue);
+        inherits: false;
+    }
+
+    @property --myColor2 {
+        syntax: '<color>';
+        initial-value: theme(colors.dark-grey-blue);
+        inherits: false;
+    }
+
+    .button {
+        @apply w-full min-h-14 text-white font-bold rounded-full transition duration-300 shadow-3xl;
+        background: linear-gradient(var(--myColor1), var(--myColor2));
+        transition: --myColor1 0.2s ease-in-out, --myColor2 0.2s ease-in-out;
+    }
+
+    .button:hover {
+        --myColor1: theme(colors.light-slate-blue);
+        --myColor2: theme(colors.light-royal-blue);
+    }
+}

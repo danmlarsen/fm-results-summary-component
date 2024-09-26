@@ -3,24 +3,24 @@
         "category": "Reaction",
         "score": 80,
         "icon": "./assets/images/icon-reaction.svg",
-        "color": "#FF5555"
+        "color": "hsl(0, 100%, 67%)"
     },
     {
         "category": "Memory",
         "score": 92,
         "icon": "./assets/images/icon-memory.svg",
-        "color": "#FFB21E"
+        "color": "hsl(39, 100%, 56%)"
     },
     {
         "category": "Verbal",
         "score": 61,
         "icon": "./assets/images/icon-verbal.svg",
-        "color": "#00BB8F"
+        "color": "hsl(166, 100%, 37%)"
     },
     {
         "category": "Visual",
         "score": 72,
         "icon": "./assets/images/icon-visual.svg",
-        "color": "#1125D6"
+        "color": "hsl(234, 85%, 45%)"
     }
 ]
