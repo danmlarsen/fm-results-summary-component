@@ -23,7 +23,7 @@
     }
 
     .button {
-        @apply w-full min-h-14 text-white font-bold rounded-full transition duration-300 shadow-3xl;
+        @apply w-full min-h-14 text-white font-bold rounded-full transition duration-300 shadow-3xl focus-visible:outline-4 focus-visible:outline-offset-4 focus-visible:outline-light-royal-blue;
         background: linear-gradient(var(--myColor1), var(--myColor2));
         transition: --myColor1 0.2s ease-in-out, --myColor2 0.2s ease-in-out;
     }

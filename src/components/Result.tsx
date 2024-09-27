@@ -12,8 +12,8 @@ export default function Result({ scores }: { scores: Score[] }) {
                     <p className="text-light-lavender opacity-50">of 100</p>
                 </div>
                 <div className="space-y-3">
-                    <h2 className="text-2xl font-bold text-center md:text-3xl md:leading-normal">Great</h2>
-                    <p className="text-base text-center md:text-lg md:leading-tight text-light-lavender">Your performance exceed 65% of the people conducting the test here!</p>
+                    <h2 className="text-2xl font-bold text-center md:text-[2rem] md:leading-normal">Great</h2>
+                    <p className="text-base text-center md:text-lg md:leading-tight text-light-lavender">You scored higher than 65% of the people who have taken these tests.</p>
                 </div>
             </div>
         </div>
