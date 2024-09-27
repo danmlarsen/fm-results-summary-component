@@ -9,7 +9,7 @@ export default function Summary({ scores }: { scores: Score[] }) {
             <h3 className="mb-6 text-lg font-bold md:text-2xl md:mb-7">Summary</h3>
             <ul className="space-y-4 mb-6 md:mb-10">
                 {scores.map(item => (
-                    <SummaryItem {...item} />
+                    <SummaryItem {...item} key={item.category} />
                 ))}
             </ul>
             <Button />
